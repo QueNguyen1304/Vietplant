@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Vietplan</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../Css/thuvien.css" type="text/css">
+	<link rel="stylesheet" href="../Css/mainstyle.css" type="text/css">
+	<link rel="stylesheet" href="../Font/all.css" type="text/css">
+	<link rel="stylesheet" href="../Css/owl.carousel.css">
+	<link rel="stylesheet" href="../Css/owl.theme.default.css">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="EditRegion1" -->
+<div class="td-trang">
+  <h3 style="color: #FFFFFF;font-weight: 600">STORE</h3>
+</div>
+<!-- TemplateEndEditable -->
+<header>
+		<nav>
+		  <div class="container bg-light">
+				<a href="../index.html"><img class="logo" src="../Img/logo-1.png" alt="logo"></a>
+					
+				<div class="menu">
+					<hr>
+					<ul>
+						<li><a href="../store.html">Store</a></li>
+						<li><a href="../about.html">About</a></li>
+						<li><a href="../index.html">Pages</a></li>
+						<li><a href="../news.html">News</a></li>
+						<li><a href="../contact.html">Contact</a></li>
+						<li><a href="">Cart</a></li>
+					</ul>
+				</div>
+			</div>
+		  <button type="button" class="btn-menu"><i class="fas fa-bars"></i></button>
+  </nav>
+</header>
+<!-- TemplateBeginEditable name="EditRegion2" -->
+<main>
+  <div class="container bg-secondary content"></div>
+</main>
+<!-- TemplateEndEditable -->
+<footer>
+		<div class="container-fluid bg-dark">
+			<div class="container bg-dark">
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4">
+						<img class="logo" src="../Img/logo-2.png" alt="logo">
+						<p class="mt-10">Lorem ipsum dolor sit amet,<br>mattis consectetuer adipiscing suspendisse et justo.<br>Praesent mattis ugue.</p>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<h5>Open Hours</h5>
+						<br>
+						<p><b>Monday:</b> Closed</p>
+						<p><b>Tuesday to Friday:</b><br>7:00 AM - 9:00 PM</p>
+						<p><b>Saturday to Sunday:</b><br>11:00 AM - 10:00 PM</p>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<h5>Find Us</h5>
+						<br>
+						<p>SomeUnknowInfomation.</p>
+						<p>4578 Marmora Road, Glasgow 89GR 
+							<br>info@vietplant.com
+							<br>1-800-1234-567
+							<br>+44 987-654-3210
+						</p>
+					</div>
+				</div>
+			  <hr class="vienchan">
+				<center>Copyright © 2018 Vietplant garden. | Powered by Azolia Inc.</center>
+		  </div>
+			
+  </div>
+	</footer>
+
+	
+
+<script src="../JS/jquery-3.6.0.min.js"></script>
+<script src="../JS/owl.carousel.js"></script>
+<script src="../JS/custom.js"></script>
+	
+</body>
+</html>

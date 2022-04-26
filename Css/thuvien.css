@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+* {  box-sizing: border-box;}
+.container-fluid { width: 100%;}
+.container{ width: 100%;border-radius: 10px;margin: auto}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.row{ display: flex; flex-wrap: wrap}
+[class*="col-"] {
+  padding: 10px;
+}
+.img-100{ width: 100%; height: auto}
+.p-0{ padding: 0}
+.p-30{padding: 30px}
+.p-15{padding: 15px}
+.pl-10{padding-left: 10px}
+.pr-10{padding-right: 10px}
+.pt-30{padding-top: 30px}
+.m-0{margin: 0}
+.mt-30{margin-top: 30px}
+.mb-30{margin-bottom: 30px}
+.mt-10{margin-top: 10px}
+.mr-30{margin-right: 30px}
+.ml-10{margin-left: 10px}
+.mb-10{margin-bottom: 10px}
+.m-20-5{margin: 20px 0 5px}
+/*--------------------------- hệ thống màu text-----------------------*/
+.text-primary{ color: #8EB63E}
+.text-secondary{ color: #9B9B9B}
+.text-sucess{ color: #222}
+.text-gray{color: #4B4B4B}
+.text-light{ color: #fff}
+.text-dark{ color: #000}
+
+.text-14{font-size: 14px}
+.text-18{font-size: 18px}
+
+/*--------------------------- hệ thống màu nền-----------------------*/
+.bg-primary{ background-color: #8EB63E}
+.bg-secondary{ background-color: #F9F9F9}
+.bg-sucess{ background-color:  #FDFDFD}
+.bg-light{background-color: #fff}
+.bg-dark{background-color: #222}
+/*--------------------------- hệ thống màu button /a-----------------------*/
+.btn{
+    text-decoration: none; padding: 8px 30px; 
+    cursor: pointer;}
+.btn-primary{
+	background-color: #80B435;color: #fff;
+	border: none;border-radius: 25px;}
+.btn-primary:hover{background-color: #8EB63E}
+.btn-secondary{
+	background-color: transparent;color: #9B9B9B;
+	border: 2px solid #9B9B9B; border-radius: 10px}
+.btn-secondary:hover{background-color: #000;color: #fff;border: 2px solid #000}
+
+
+/*--------------- thiết bị lớn hơn 576  thì code dươi đây- phone ngang-------------------*/
+@media (min-width:576px)
+{
+   
+    .container{ width: 95%; margin: auto}
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+	
+}
+/*--------------- thiết bị lớn hơn 768px  thì code dươi đây- tablet (ipad)-----------------*/
+@media (min-width:768px)
+{
+    
+     .container{ width: 95%; margin: auto}
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+/*--------------- thiết bị lớn hơn 992px  thì code dươi đây-ipad-ngang hoặc pc nhỏ 1024------------------*/
+@media (min-width:992px)
+{
+  
+    .container{ width: 75%; margin: auto; }
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
+/*--------------- thiết bị lớn hơn 1200px  thì code pc lớn ------------------*/
+@media (min-width:1200px)
+{
+    .container{ width: 75%; margin: auto}
+    .col-xl-1 {width: 8.33%;}
+    .col-xl-2 {width: 16.66%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-4 {width: 33.33%;}
+    .col-xl-5 {width: 41.66%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-7 {width: 58.33%;}
+    .col-xl-8 {width: 66.66%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-10 {width: 83.33%;}
+    .col-xl-11 {width: 91.66%;}
+    .col-xl-12 {width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
